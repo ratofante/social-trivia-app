@@ -1,0 +1,17 @@
+@mixin respond-to($name) {
+  $mediaQueries: (
+    "XXS": "(min-width: 620px)",
+    "XS": "(max-width: 767px)",
+    "SM": "(min-width: 768px)",
+    "MD": "(min-width: 992px) ",
+    "LG": "(min-width: 1200px) ",
+    "XL": "(min-width: 1440px)",
+    "XXL": "(min-width: 1920px)",
+  );
+
+  @if map-has-key($mediaQueries, $name) {
+    @media #{map-get($mediaQueries, $name)} {
+      @content;
+    }
+  }
+}

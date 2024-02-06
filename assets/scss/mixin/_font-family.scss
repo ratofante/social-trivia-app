@@ -1,0 +1,9 @@
+@mixin ff-primary($weight: 500) {
+  font-family: var(--ff-primary);
+  font-weight: $weight;
+}
+
+@mixin ff-secondary($weight: 400) {
+  font-family: var(--ff-secondary);
+  font-weight: $weight;
+}

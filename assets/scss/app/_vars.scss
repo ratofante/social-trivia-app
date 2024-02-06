@@ -1,0 +1,24 @@
+:root {
+  font-size: 10px;
+
+  /* COLORS */
+  --dark: 50, 50, 50;
+  --dark-gray: 66, 66, 66;
+  --light-gray: 207, 207, 207;
+  --light: 250, 251, 255;
+
+  --nav-height: ;
+  --nav-theme-transition: ;
+
+  --site-inline-padding: 3.6vw;
+  --site-inline-padding-xs: 2vw;
+
+  --sections-padding-xs: 10vh;
+  --sections-padding-sm: 12vh;
+  --sections-padding-lg: 17.5vh;
+
+  /* Beziers */
+  --bezier-ease-out: cubic-bezier(0.11, 0, 0.33, 0.92);
+  --bezier-1: cubic-bezier(0.7, 0, 0.3, 1);
+  --bezier-2: cubic-bezier(0.46, 0.39, 0.13, 1);
+}

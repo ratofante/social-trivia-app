@@ -1,0 +1,12 @@
+/* App styles */
+@import "app/vars";
+@import "app/fonts";
+
+/* Mixins */
+@import "mixin/main";
+
+/* Core styles */
+@import "core/index.scss";
+
+/* Libraries */
+@import "libs/swiper";
